@@ -10,14 +10,14 @@ class Celador < Formula
     depends_on arch: :arm64
 
     url "https://github.com/GustavoGutierrez/celador/releases/download/v#{version}/celador_#{version}_darwin_arm64.tar.gz"
-    sha256 "647030a623178b30b1b3524f46039cec7b4a758e4e6b0b85cf69cdef3e8d08bb"
+    sha256 "f439fa8b1c8439665f4f2c16497c2f808600c8ff38479b24c680c04ad640933c"
   end
 
   on_linux do
     depends_on arch: :x86_64
 
     url "https://github.com/GustavoGutierrez/celador/releases/download/v#{version}/celador_#{version}_linux_amd64.tar.gz"
-    sha256 "28d5d97c25cd2706cd471373a4856835cd93641177da2c002184ef2a3691fd6a"
+    sha256 "2b60a4456e8fc744b79a72da91a4059eb1323f941c99cd2631e98ea9838e5531"
   end
 
   def install
