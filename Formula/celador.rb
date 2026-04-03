@@ -4,20 +4,20 @@ class Celador < Formula
   desc "Zero-trust dependency security CLI for JS/TS workspaces"
   homepage "https://github.com/GustavoGutierrez/celador"
   license "MIT"
-  version "0.1.6"
+  version "0.1.7"
 
   on_macos do
     depends_on arch: :arm64
 
     url "https://github.com/GustavoGutierrez/celador/releases/download/v#{version}/celador_#{version}_darwin_arm64.tar.gz"
-    sha256 "a28e2fd405e607c31a28f2bd04ccf9c69e0f41d7dc487613016014bb482486ec"
+    sha256 "442dcb9be7039b14d7a446b6ee82d550ae8f01a151e837ce7736a7c8714e8d77"
   end
 
   on_linux do
     depends_on arch: :x86_64
 
     url "https://github.com/GustavoGutierrez/celador/releases/download/v#{version}/celador_#{version}_linux_amd64.tar.gz"
-    sha256 "c50fe8e0e43da196b08d88eca8c908cf0b884128436cc576703e4bb9351cce7b"
+    sha256 "78c93d366956208c727e5ce4c34af650731751d166f3460ac68e8f89700ce3d2"
   end
 
   def install
